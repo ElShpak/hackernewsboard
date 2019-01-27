@@ -1,10 +1,16 @@
-import Vue from 'vue'
-import App from './App.vue'
-import router from './router'
+import Vue from 'vue';
+import App from './App';
+import router from './router';
+import { store } from './store/store.js';
 
-Vue.config.productionTip = false
+import '@/style/_default.scss';
+
+Vue.config.productionTip = false;
 
 new Vue({
-  router,
-  render: h => h(App)
-}).$mount('#app')
+	el: '#app',
+	router,
+	store,
+	components: { App },
+	render: (h) => h(App)
+});
