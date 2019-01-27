@@ -3,11 +3,15 @@
     <div class="logo">
       <i class="material-icons md-36">radio</i>
       <h1>
-        <router-link :to="{ path: '/'}" class="logo__name"  title="logo and link to top news">HackNewsBoard</router-link>
+        <router-link
+          :to="{ path: '/'}"
+          class="logo__name"
+          title="logo and link to top news"
+        >HackNewsBoard</router-link>
       </h1>
     </div>
     <div class="header__buttons">
-      <div class="search"  title="search">
+      <div class="search" title="search">
         <i class="material-icons icon__search">search</i>
         <input
           class="search__field"
