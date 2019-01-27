@@ -16,10 +16,6 @@
   </div>
 </template>
 <script>
-import axios from "axios";
-import bus from "@/utils/bus";
-import { mapActions, mapState } from "vuex";
-
 export default {
   name: "newslist",
   props: ["newspage"]

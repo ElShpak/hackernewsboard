@@ -18,7 +18,7 @@ export default {
 };
 </script>
 
-<style lang="scss" >
+<style lang="scss" scoped>
 .nav__list {
   padding: 0px 0px;
   margin: 5px 0;

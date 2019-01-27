@@ -41,7 +41,6 @@
 import axios from "axios";
 import bus from "@/utils/bus";
 import newsitem from "@/components/newslist/newsitem.vue";
-import { mapActions, mapState } from "vuex";
 
 export default {
   name: "Ask",
@@ -69,8 +68,6 @@ export default {
     }
   },
   methods: {
-    ...mapActions(["addToFavorite", "deleteFavorite"]),
-
     async firstPage() {
       if (this.page < this.maxPage + 1) {
         this.page = 1;

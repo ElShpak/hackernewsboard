@@ -22,16 +22,13 @@ export default {
 };
 </script>
 <style>
-.animation-leave-active,
-.animation-enter-active {
+.animation-leave-active {
   transition: all 0.6s ease-in-out;
 }
-.animation-leave,
-.animation-enter-to {
+.animation-leave {
   opacity: 1;
 }
-.animation-leave-to,
-.animation-enter {
+.animation-leave-to {
   opacity: 0;
 }
 </style>

@@ -37,12 +37,8 @@ export default {
   name: "Header",
   data() {
     return {
-      search: "",
-      todos: []
+      search: ""
     };
-  },
-  created: async function() {
-    bus.$on("search", search => (this.search = ""));
   },
   methods: {
     onChange(ev) {
@@ -52,7 +48,7 @@ export default {
 };
 </script>
 
-<style lang="scss" >
+<style lang="scss" scoped>
 .header {
   position: fixed;
   left: 0;

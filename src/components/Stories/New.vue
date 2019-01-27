@@ -33,7 +33,6 @@ import bus from "@/utils/bus";
 import newslist from "@/components/newslist/newslist.vue";
 import newsitem from "@/components/newslist/newsitem.vue";
 
-import { mapActions, mapState } from "vuex";
 export default {
   name: "New",
   components: {
@@ -61,8 +60,6 @@ export default {
     }
   },
   methods: {
-    ...mapActions(["addToFavorite", "deleteFavorite"]),
-
     async firstPage() {
       if (this.page < this.maxPage + 1) {
         this.page = 1;
