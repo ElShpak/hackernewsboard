@@ -34,6 +34,11 @@
         <button class="btn__page" @click="lastPage()" :disabled="page >= maxPage">&raquo;</button>
       </div>
     </template>
+     <template v-else>
+      <div  class="container container-err">
+             <h1>Oops!Page not found</h1>
+             </div>
+    </template>
   </div>
 </template>
 

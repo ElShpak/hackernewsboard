@@ -60,6 +60,12 @@
 		padding: 20px;
 	}
 }
+.container-err{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: $fourth-color;
+  }
 .newspage__block {
 	display: flex;
 	justify-content: center;
