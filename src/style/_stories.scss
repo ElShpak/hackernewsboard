@@ -71,6 +71,7 @@
 	color: $first-color;
 	font-size: 1.4rem;
 	text-decoration: none;
+	text-transform: uppercase;
 	&:hover {
 		color: rgba($first-color, 0.6);
 	}
