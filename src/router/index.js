@@ -18,33 +18,33 @@ export default new Router({
 			component: Favorites
 		},
 		{
-			path: '/',
+			path: '/hackernewsboard/',
 			name: 'Top',
 			component: Top
 		},
 
 		{
-			path: '/show',
+			path: '/hackernewsboard/show',
 			name: 'Show',
 			component: Show
 		},
 		{
-			path: '/ask',
+			path: '/hackernewsboard/ask',
 			name: 'Ask',
 			component: Ask
 		},
 		{
-			path: '/new',
+			path: '/hackernewsboard/new',
 			name: 'New',
 			component: New
 		},
 		{
-			path: '/jobs',
+			path: '/hackernewsboard/jobs',
 			name: 'Jobs',
 			component: Jobs
 		},
 		{
-			path: '/story/:id',
+			path: '/hackernewsboard/story/:id',
 			name: 'Story',
 			component: Story
 		}
