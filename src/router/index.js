@@ -13,7 +13,7 @@ Vue.use(Router);
 export default new Router({
 	routes: [
 		{
-			path: '/favorites',
+			path: '/hackernewsboard/favorites',
 			name: 'Favorites',
 			component: Favorites
 		},
