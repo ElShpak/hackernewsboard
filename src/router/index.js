@@ -13,38 +13,38 @@ Vue.use(Router);
 export default new Router({
 	routes: [
 		{
-			path: '/hackernewsboard/favorites',
+			path: '/favorites',
 			name: 'Favorites',
 			component: Favorites
 		},
 		{
-			path: '/hackernewsboard/',
+			path: '/',
 			name: 'Top',
 			component: Top
 		},
 
 		{
-			path: '/hackernewsboard/show',
+			path: '/show',
 			name: 'Show',
 			component: Show
 		},
 		{
-			path: '/hackernewsboard/ask',
+			path: '/ask',
 			name: 'Ask',
 			component: Ask
 		},
 		{
-			path: '/hackernewsboard/new',
+			path: '/new',
 			name: 'New',
 			component: New
 		},
 		{
-			path: '/hackernewsboard/jobs',
+			path: '/jobs',
 			name: 'Jobs',
 			component: Jobs
 		},
 		{
-			path: '/hackernewsboard/story/:id',
+			path: '/story/:id',
 			name: 'Story',
 			component: Story
 		}
