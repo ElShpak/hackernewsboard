@@ -10,13 +10,6 @@ npm run build
 cd dist
 
 
-
-git init
-git add -A
-git commit -m 'deploy'
-
-\
-
 # если вы публикуете по адресу https://elshpak.github.io/hackernewsboard/
 # git push -f git@github.com:elshpak/hackernewsboard.git master:gh-pages
 
