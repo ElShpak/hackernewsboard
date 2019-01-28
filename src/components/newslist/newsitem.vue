@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="store-block">
+  
       <div
         class="store"
         v-if="!renderFavorites"
@@ -23,7 +24,9 @@ export default {
   computed: {
     ...mapState(["favorites"]),
     renderFavorites() {
-      return this.favorites.indexOf(this.newspage) > -1;
+    
+      return Object.keys(this.favorites).map(id => this.favorites[id].id).indexOf(this.newspage.id) > -1;
+    
     }
   },
   methods: {
