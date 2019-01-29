@@ -47,9 +47,9 @@ export default new Router({
 			path: '/story/:id',
 			name: 'Story',
 			component: Story
-		}
+		},
+		{ path: '*', component: NotFoundComponent }
 	],
-	mode: 'history',
-	mode: 'hash'
+	mode: 'history'
 
 });
