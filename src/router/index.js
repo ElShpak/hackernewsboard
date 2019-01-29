@@ -49,5 +49,7 @@ export default new Router({
 			component: Story
 		}
 	],
+	mode: 'history',
+	mode: 'hash'
 
 });
