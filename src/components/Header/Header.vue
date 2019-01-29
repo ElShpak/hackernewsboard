@@ -4,7 +4,7 @@
       <i class="material-icons md-36">radio</i>
       <h1>
         <router-link
-          :to="{ path: '/hackernewsboard/'}"
+          :to="{ path: '/'}"
           class="logo__name"
           title="logo and link to top news"
         >HackNewsBoard</router-link>
