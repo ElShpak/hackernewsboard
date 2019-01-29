@@ -18,7 +18,7 @@ export default new Router({
 			component: Favorites
 		},
 		{
-			path: '/',
+			path: '/hackernewsboard/',
 			name: 'Top',
 			component: Top
 		},
