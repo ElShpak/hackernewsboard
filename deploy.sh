@@ -18,6 +18,6 @@ git commit -m 'deploy'
 
 
 
- git push -f git@github.com:elshpak/hackernewsboard.git master:gh-pages
+ git push -f git@github.com:ElShpak/hackernewsboard.git master:gh-pages
 
 cd -
