@@ -50,6 +50,8 @@ export default new Router({
 		},
 	
 	],
-	mode: 'history'
+	mode: 'history',
+	base: '/hackernewsboard/'
+
 
 });
