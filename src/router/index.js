@@ -48,7 +48,7 @@ export default new Router({
 			name: 'Story',
 			component: Story
 		},
-		{ path: '*', component: NotFoundComponent }
+	
 	],
 	mode: 'history'
 
