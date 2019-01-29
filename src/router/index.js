@@ -18,7 +18,7 @@ export default new Router({
 			component: Favorites
 		},
 		{
-			path: '/hackernewsboard/',
+			path: '/',
 			name: 'Top',
 			component: Top
 		},
@@ -49,5 +49,5 @@ export default new Router({
 			component: Story
 		}
 	],
-	mode: 'history'
+
 });
